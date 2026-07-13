@@ -42,8 +42,8 @@ I led the development process, designed the full user experience, and contribute
 
 ## 🏆 Achievements
 
-- 🥈 2nd Place — Triple S Competition (Innovation & Entrepreneurship Track)
-- Presented at the Annual Scientific Conference as a distinguished graduation project
+- 🥈 2nd Place — Triple S Competition (Innovation & Entrepreneurship Track).
+- Presented at the Annual Scientific Conference as a distinguished graduation project.
 
 ---
 
