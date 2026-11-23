@@ -1,52 +1,34 @@
-# Talkable — AI-Powered Accessibility Platform
-Talkable is an AI-powered accessibility platform that enables real-time communication between deaf and hearing individuals using sign language translation and interactive assistive technologies.
-The system is designed primarily for Arabic-speaking users to provide an inclusive, interpreter-free communication experience across conversations, education, and daily interactions.
+# TalkAble Frontend
 
----
-## 🚀 Key Features
+The frontend for TalkAble, an AI-powered accessibility platform for deaf and hard-of-hearing users. The graduation project focuses on Arabic sign language translation, video calls and PDF-to-sign conversion.
 
-- Real-time speech-to-sign language translation using AI
-- 3D avatar for visual sign language representation
-- Accessible video calls between deaf and hearing users
-- PDF-to-sign language conversion
-- Smart bracelet integration for vibration-based alerts
-- Interactive sign language learning hub
-- Responsive and accessibility-focused UI/UX
+## My contribution
 
----
+I led a six-member team, designed the end-to-end UI/UX and built a Figma design system with reusable components and responsive layouts. I also contributed to frontend and backend development using HTML, CSS, JavaScript, Bootstrap, C#, .NET and SQL Server.
 
-## 🛠️ Tech Stack
-**Frontend**
-- HTML5
-- CSS3
-- JavaScript
-- Bootstrap
+## In this repository
 
-**Backend**
-- .NET
+- Account registration, login and profile screens
+- Speech-to-sign and sign-to-speech interfaces
+- Video-call interfaces
+- PDF translation and sign language learning screens
 
-**AI Layer**
-- Custom AI model for sign language translation and communication support
+**Frontend:** HTML, CSS, JavaScript and Bootstrap, with Three.js, MediaPipe and SignalR integrations.
 
----
+## Preview locally
 
-## 👨‍💻 My Role
+Serve the repository with a local static web server. With Python 3:
 
-- Team Leader
-- UI/UX Designer
-- Full Stack Developer
+```bash
+git clone https://github.com/Mo7amedghareb/Talkable-Frontend.git
+cd Talkable-Frontend
+python -m http.server 8000
+```
 
-I led the development process, designed the full user experience, and contributed to both frontend/backend implementation and AI integration.
+Open `http://localhost:8000/home-page.html`. This previews the frontend only. Authentication, translation and calls require the backend and AI services. The JavaScript currently references localhost and temporary ngrok endpoints; this repository is not a standalone hosted demo.
 
----
+## Recognition
 
-## 🏆 Achievements
+Graduation project graded A+, awarded second place in the Triple S Competition and presented at the Annual Scientific Conference.
 
-- 🥈 2nd Place — Triple S Competition (Innovation & Entrepreneurship Track).
-- Presented at the Annual Scientific Conference as a distinguished graduation project.
-
----
-
-## 🎯 Vision
-
-To make communication universally accessible by empowering deaf individuals through AI-driven tools in education, work, interviews, and everyday life.
+[UI/UX case study](https://www.behance.net/gallery/252660845/Talkable-AI-Sign-Language-Arabic-Platform)
